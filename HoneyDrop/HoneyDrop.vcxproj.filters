@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{9910bd44-e756-4627-b73f-6c58e340b56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Geometery">
+      <UniqueIdentifier>{40ff932f-a4d7-46b3-8359-d82c6379230a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{8b3672de-05bf-4d48-813b-ced7c03e3292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{ca3f3755-282d-43c1-a55b-c66d157a4c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper functions">
+      <UniqueIdentifier>{d0098360-35ad-4080-8016-718ea5e526c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\image_DXT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\image_helper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\stb_image_aug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Header Files\Geometery</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Geometery</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingBlock.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorManager.h">
+      <Filter>Header Files\Helper functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Shortcut.h">
+      <Filter>Header Files\Helper functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Geometery</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EnergyCoin.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectWriter.h">
+      <Filter>Header Files\Helper functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectReader.h">
+      <Filter>Header Files\Helper functions</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureSet.h">
+      <Filter>Header Files\Helper functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Source Files\Resource Files</Filter>
+    </Image>
+    <Image Include="HoneyDrop.ico">
+      <Filter>Source Files\Resource Files</Filter>
+    </Image>
+    <Image Include="img\logo.png">
+      <Filter>Source Files\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HoneyDrop.rc">
+      <Filter>Source Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Explosion.mp3" />
+  </ItemGroup>
+</Project>
